@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date</title>
+</head>
+<body>
+    <script>
+        var date = new Date()
+        document.write(`${date} <br>`)
+        //to get year use getFullYear()
+        document.write(`${date.getFullYear()} <br>`)
+        //to get month use getMonth(), it returns value between 0 and 11
+        document.write(`${date.getMonth()} <br>`)
+        //to get date use getDate(), 1-31
+        document.write(`${date.getDate()} <br>`)
+        //to get day use getDay(), 0-6
+        document.write(`${date.getDay()} <br>`)
+        //to get hour use getHours(), 0-23
+        document.write(`${date.getHours()} <br>`)
+        //getMinutes()
+        document.write(`${date.getMinutes()} <br>`)
+        //getSeconds()
+        document.write(`${date.getSeconds()} <br>`)
+        //getMilliseconds(), 0-999
+        document.write(`${date.getMilliseconds()}`)
+
+    </script>
+</body>
+</html>

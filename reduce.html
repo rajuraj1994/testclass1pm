@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reduce</title>
+</head>
+<body>
+    <script>
+         const prices=[1000,2000,3000,4000,5000]
+         const totalPrice= prices.reduce((accumulator,currentValue)=>(
+             accumulator+currentValue
+         ))
+
+         document.write(`${totalPrice}`)
+         //a=1000
+         //c=2000
+         //a=3000
+         //c=3000
+         //a=6000
+         //c=4000
+         //a=10000
+         //c=5000
+         //a=15000
+
+    </script>
+</body>
+</html>
